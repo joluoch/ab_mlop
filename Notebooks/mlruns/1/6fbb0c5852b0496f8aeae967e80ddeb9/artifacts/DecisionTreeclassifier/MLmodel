@@ -1,0 +1,13 @@
+artifact_path: DecisionTreeclassifier
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.8.8
+  sklearn:
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 0.24.1
+run_id: 6fbb0c5852b0496f8aeae967e80ddeb9
+utc_time_created: '2021-07-24 17:15:25.892404'
